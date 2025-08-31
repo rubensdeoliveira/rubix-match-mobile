@@ -12,7 +12,20 @@
           "package_name": "com.rubinhodev.rubixmatch"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1040662176973-1eft8l8bpo63ui8ia1u8tthd09uj9bng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rubinhodev.rubixmatch",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1040662176973-9m2fb00itrvh1av4o0mdfl4rvn2qphgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAyKCiwCGnAGD0-q16csv_iF3NMVoqSIpA"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040662176973-9m2fb00itrvh1av4o0mdfl4rvn2qphgr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1040662176973-8lbnfi6g9v1rjvu3q4soqpdt47j10jbp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rubinhodev.rubixmatch"
+              }
+            }
+          ]
         }
       }
     }
