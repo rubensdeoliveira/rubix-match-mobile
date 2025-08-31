@@ -9,7 +9,9 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rubinhodev.rubixmatch",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "versionCode": 1,
@@ -17,7 +19,8 @@
         "foregroundImage": "./src/application/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.rubinhodev.rubixmatch"
+      "package": "com.rubinhodev.rubixmatch",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "bundler": "metro",
@@ -34,7 +37,17 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      [
+				"expo-build-properties",
+				{
+					"ios": {
+						"useFrameworks": "static"
+					}
+				}
+			],
+			"@react-native-firebase/app",
+			"@react-native-firebase/auth"
     ],
     "experiments": {
       "typedRoutes": true
