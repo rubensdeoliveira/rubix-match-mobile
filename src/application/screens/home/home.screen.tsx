@@ -9,7 +9,7 @@ export function HomeScreen() {
 
   return (
     <ScreenWrapper>
-      <Text className="text-white">Olá {user?.name}</Text>
+      <Text className="text-white">Olá {user?.name}, bem-vindo(a)!</Text>
       <Pressable className="bg-white" onPress={() => logout()}>
         <Text>Sign Out</Text>
       </Pressable>
